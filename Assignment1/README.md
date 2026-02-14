@@ -4,7 +4,7 @@
 
 ---
 
-# Part 1: Paper Summary (Approx. 550 words)
+# Part 1: Paper Summary
 
 ## Main Argument
 
@@ -116,7 +116,7 @@ This capability directly addresses the paper’s concerns about difficulty imple
 
 ---
 
-# Part 3: Critical Evaluation (Approx. 500 words)
+# Part 3: Critical Evaluation
 
 ## Limitations That Remain Unresolved
 
