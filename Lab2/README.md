@@ -11,7 +11,7 @@ cd CST8917/lab2
 
 The supplied project is a **Python Azure Durable Functions app** that uses the fan‑out/fan‑in pattern. When an image is uploaded to a Blob Storage container called `images`, a blob‑triggered client function starts an orchestrator. The orchestrator fans out to run four activity functions in parallel (colour analysis, object detection, OCR and metadata extraction), then fans back in to generate a combined report and stores it in **Azure Table Storage**. An HTTP endpoint is exposed for retrieving reports.
 
-The steps below show how to get the project running locally on your machine using Azurite (the local Azure Storage emulator) and Azure Functions Core Tools. It assumes that you have already completed the **Week 4 Durable Functions exercise**, have **Python 3.11 or 3.12**, **VS Code with the Azure Functions extension** and **Azure Functions Core Tools** installed. See the official documentation for general advice on developing functions locally.【185776472738070†L190-L204】
+The steps below show how to get the project running locally on your machine using Azurite (the local Azure Storage emulator) and Azure Functions Core Tools. It assumes that you have already completed the **Week 4 Durable Functions exercise**, have **Python 3.11 or 3.12**, **VS Code with the Azure Functions extension** and **Azure Functions Core Tools** installed. See the official documentation for general advice on developing functions locally.
 
 ## 2 Install prerequisites
 
@@ -45,7 +45,7 @@ The steps below show how to get the project running locally on your machine usin
    azurite --silent
    ```
 
-   Azure Functions notes that when you set the `AzureWebJobsStorage` connection string to **`UseDevelopmentStorage=true`**, the Functions host uses the Azurite emulator.【185776472738070†L280-L285】 Our `local.settings.json` uses `UseDevelopmentStorage=true` so the function app will talk to the local emulator.
+   Azure Functions notes that when you set the `AzureWebJobsStorage` connection string to **`UseDevelopmentStorage=true`**, the Functions host uses the Azurite emulator. Our `local.settings.json` uses `UseDevelopmentStorage=true` so the function app will talk to the local emulator.
 
 ## 3 Configure local settings
 
