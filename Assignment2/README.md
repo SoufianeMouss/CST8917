@@ -280,15 +280,4 @@ High-throughput streaming platforms designed to ingest millions of events per se
 
 ---
 
-## References
-
-- [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/) · [AWS Lambda](https://docs.aws.amazon.com/lambda/) · [GCP Cloud Functions](https://cloud.google.com/functions/docs)
-- [Durable Functions](https://learn.microsoft.com/en-us/azure/azure-functions/durable/) · [AWS Step Functions](https://docs.aws.amazon.com/step-functions/) · [GCP Workflows](https://cloud.google.com/workflows/docs)
-- [Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/) · [AWS AppFlow](https://docs.aws.amazon.com/appflow/) · [GCP Application Integration](https://cloud.google.com/application-integration/docs)
-- [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/) · [Amazon SQS](https://docs.aws.amazon.com/sqs/) · [GCP Pub/Sub](https://cloud.google.com/pubsub/docs)
-- [Azure Event Grid](https://learn.microsoft.com/en-us/azure/event-grid/) · [Amazon EventBridge](https://docs.aws.amazon.com/eventbridge/) · [GCP Eventarc](https://cloud.google.com/eventarc/docs)
-- [Azure Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/) · [Amazon Kinesis](https://docs.aws.amazon.com/kinesis/) · [GCP Pub/Sub Streaming](https://cloud.google.com/pubsub/docs/stream-messages-dataflow)
-
----
-
 *CST8917 – Serverless Applications, Assignment 2*
