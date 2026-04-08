@@ -24,7 +24,7 @@ All three are FaaS (Function-as-a-Service) platforms that run code in response t
 | Feature | Azure Functions | AWS Lambda | GCP Cloud Functions |
 |---|---|---|---|
 | **Languages** | C#, JS, Python, Java, PowerShell, Go | Node.js, Python, Java, Go, Ruby, .NET | Node.js, Python, Go, Java, Ruby, PHP |
-| **Max Timeout** | 230s (Consumption); unlimited (Premium) | 15 minutes | 60 minutes (2nd gen) |
+| **Max Timeout** | 10 min (Consumption); unlimited (Premium) | 15 minutes | 60 minutes (2nd gen) |
 | **Triggers** | HTTP, Timer, Blob, Queue, Service Bus, Event Grid, Cosmos DB + declarative bindings | HTTP, S3, SQS, SNS, DynamoDB, EventBridge — SDK calls only | HTTP, Pub/Sub, Cloud Storage, Firestore, Eventarc |
 | **Cold Start Fix** | Premium Plan (pre-warmed instances) | Provisioned Concurrency | Minimum instances |
 
